@@ -1,0 +1,94 @@
+.first-container {
+  background: url('../../assets/ferbg1.png');
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+
+.white-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.yellow-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  color: #FFE200;
+}
+
+span {
+  font-weight: 700;
+}
+
+.footer-text{
+  margin-top: 146px;
+  margin-bottom: 100px;
+}
+
+.first-left {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  align-items: flex-start;
+  margin-right: 5%;
+  max-width: 543px;
+}
+
+.first-rigth {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  margin-top: 200px;
+  width: 328px;
+}
+
+.first-rigth h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 89%;
+  text-align: center;
+  color: #FFE200;
+}
+
+.first-rigth p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 107%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 2px solid #99B6CC;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 10px;
+  height: 36px;
+}
+
+.btn-submit {
+  margin-top: 15px;
+  height: 36px;
+  background: #FFB700;
+  border-radius: 42px;
+}
