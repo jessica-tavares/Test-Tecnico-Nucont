@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactGA from 'react-ga';
 import saveStorage from "../services/saveStorage";
 
-function FormularioCadastro(textAnalitycs) {
+function FormularioCadastro({textAnalitycs}) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
