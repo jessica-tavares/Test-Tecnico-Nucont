@@ -9,7 +9,7 @@ function Home() {
 
   const onClickEvent = () => {
     ReactGA.event({
-      category: 'Scroll-Button',
+      category: 'Button',
       action: 'Scroll page until subscription',
     });
   }
@@ -31,7 +31,7 @@ function Home() {
         <p className="white-text center">Responder essa pergunta <span>pode ser mais fácil</span> do que parece: A Consultoria Contábil é sua aliada para analisar a real situação das empresas. No entanto, para colocar em prática, você precisa de informações e dedicação.</p>
         <span>Vamos conversar a respeito?</span>
         <AnchorLink href="#subscription">
-          <button className="btn-link-div" onClick={() => onClickEvent() }>
+          <button className="btn-link-div" onClick={onClickEvent}>
             QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA
           </button>
         </AnchorLink>

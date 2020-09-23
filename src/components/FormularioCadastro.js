@@ -8,10 +8,10 @@ function FormularioCadastro(textAnalitycs) {
 
   const onSubmit = () => {
     ReactGA.event({
-      category: 'activity',
+      category: 'Button',
       action: textAnalitycs,
     });
-    
+
     const infos = { nome: name, email };
     const regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     (regexp.test(email)) ? saveStorage(infos) : alert("Email Inválido")
@@ -28,7 +28,7 @@ function FormularioCadastro(textAnalitycs) {
       <div className="forms" method="get">
         <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"/>
         <input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
-        <button className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
+        <button className="btn-submit" onClick={onSubmit}>QUERO ACOMPANHAR A SÉRIE</button>
       </div>
     </div>
   )
