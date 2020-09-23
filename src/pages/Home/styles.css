@@ -1,4 +1,4 @@
-{/* CSS do primeiro bloco da pagina Inicial */}
+/* CSS do primeiro bloco da pagina Inicial */
 .first-container {
   background: url('../../assets/ferbg1.png');
   background-size: cover;
@@ -96,7 +96,7 @@ span {
   background: #FFB700;
   border-radius: 42px;
 }
-{/* CSS do segundo bloco da pagina Inicial */}
+/* CSS do segundo bloco da pagina Inicial */
 .second-container {
   display: flex;
   flex-direction: column;
@@ -146,7 +146,7 @@ span {
   text-align: center;
   color: #FFFFFF;
 }
-{/* CSS do Terceiro bloco da pagina Inicial */}
+/* CSS do Terceiro bloco da pagina Inicial */
 .third-container {
   display: flex;
   flex-direction: column;
@@ -177,7 +177,7 @@ span {
   color: #063254;
   margin-left: 5px;
 }
-{/* CSS do Quarto bloco da pagina Inicial */}
+/* CSS do Quarto bloco da pagina Inicial */
 .fourth-container {
  display: flex;
  flex-direction: column;
@@ -226,7 +226,7 @@ span {
   font-size: 16px;
   color: #FFB700;
 }
-{/* CSS do Quinto bloco da pagina Inicial */}
+/* CSS do Quinto bloco da pagina Inicial */
 .fifth-container {
   display: flex;
   flex-direction: column;
