@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import './App.css';
 import Home from './pages/Home';
@@ -9,7 +9,7 @@ const GAInitial = () => {
 }
 
 function App() {
-  useContext(() => GAInitial(), []);
+  useEffect(() => GAInitial(), []);
   return (
     <div className="App">
       <Home />
