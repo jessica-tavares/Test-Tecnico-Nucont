@@ -8,11 +8,11 @@ function FormularioCadastro(textAnalitycs) {
 
   const onSubmit = () => {
     ReactGA.event({
-      category: 'onClick',
+      category: 'activity',
       action: textAnalitycs,
-      label: "onClickForm"
+      transport: "beacon",
     });
-    
+
     const infos = { nome: name, email };
     const regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     (regexp.test(email)) ? saveStorage(infos) : alert("Email Inválido")
