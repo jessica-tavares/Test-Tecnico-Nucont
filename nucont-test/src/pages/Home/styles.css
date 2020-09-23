@@ -1,3 +1,4 @@
+{/* CSS do primeiro bloco da pagina Inicial */}
 .first-container {
   background: url('../../assets/ferbg1.png');
   background-size: cover;
@@ -16,7 +17,7 @@
   text-align: left;
 }
 
-.yellow-text {
+.yellow-title-1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -45,8 +46,6 @@ span {
 }
 
 .first-rigth {
-  display: flex;
-  flex-direction: column;
   margin-right: 10%;
   margin-top: 200px;
   width: 328px;
@@ -77,6 +76,11 @@ span {
   flex-direction: column;
 }
 
+.forms-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .input {
   background: #FFFFFF;
   border: 2px solid #99B6CC;
@@ -91,4 +95,158 @@ span {
   height: 36px;
   background: #FFB700;
   border-radius: 42px;
+}
+{/* CSS do segundo bloco da pagina Inicial */}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1% 15% 2%;
+  background: linear-gradient(180deg, #FFB700 99.99%, #141414 100%);
+  align-items: center;
+}
+
+.second-container h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+  color: #063254;
+  margin-bottom: 45px; 
+}
+
+.second-container span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 20px 5px 40px;
+}
+
+.center {
+  text-align: center;
+  max-width: 50%;
+}
+
+.btn-link-div {
+  padding: 8px 15px;
+  margin: auto;
+  background: #9B51E0;
+  border-radius: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+{/* CSS do Terceiro bloco da pagina Inicial */}
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1% 25% 2%;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  color: #063254;
+}
+
+.topics {
+  display: flex;
+  align-items: center;
+}
+
+.topic-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #063254;
+  margin-left: 5px;
+}
+{/* CSS do Quarto bloco da pagina Inicial */}
+.fourth-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 1% 25% 2%;
+}
+
+.fourth-infos {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth-infos img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 412px;
+  height: 364px;
+}
+
+.fourth-infos-text{
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: 143%;
+  margin-left: 5%;
+}
+
+.fourth-infos h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFB700;
+}
+
+.fourth-infos p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #063254;
+}
+
+.fourth-infos p span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFB700;
+}
+{/* CSS do Quinto bloco da pagina Inicial */}
+.fifth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% 25% 2%;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:8%;
+}
+
+.yellow-title-2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  color: #FFB700;
+  margin-bottom: 5%;
 }

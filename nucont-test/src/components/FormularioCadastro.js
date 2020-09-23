@@ -11,7 +11,7 @@ function FormularioCadastro() {
   }
 
   return (
-    <>
+    <div className="forms-container">
       <div>
         <h3>Fale agora com nossos consultores!</h3>
         <p>Conheça a Consultoria para Contadores e garanta uma vaga exclusiva na <span>Imersão Nucont</span></p>
@@ -21,7 +21,7 @@ function FormularioCadastro() {
         <input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
         <button type="submit" className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
       </forms>
-    </>
+    </div>
   )
 }
 
