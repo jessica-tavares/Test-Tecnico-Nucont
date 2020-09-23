@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 const GAInitial = () => {
   ReactGA.initialize('UA-178751346-1');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.pageview('/');
 }
 
 function App() {
