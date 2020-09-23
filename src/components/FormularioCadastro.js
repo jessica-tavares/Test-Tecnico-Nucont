@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactGA from 'react-ga';
 import saveStorage from "../services/saveStorage";
 
 function FormularioCadastro(textAnalitycs) {
@@ -6,6 +7,12 @@ function FormularioCadastro(textAnalitycs) {
   const [email, setEmail] = useState('');
 
   const onSubmit = () => {
+    ReactGA.event({
+      category: 'onClick',
+      action: textAnalitycs,
+      label: "onClickForm"
+    });
+    
     const infos = { nome: name, email };
     const regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     (regexp.test(email)) ? saveStorage(infos) : alert("Email Inválido")
@@ -22,9 +29,7 @@ function FormularioCadastro(textAnalitycs) {
       <div className="forms" method="get">
         <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"/>
         <input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
-        <a href="#root" onClick={`goog_report_conversion (${textAnalitycs})`}>
-          <button type="submit" className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
-        </a>
+        <button type="submit" className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
       </div>
     </div>
   )
