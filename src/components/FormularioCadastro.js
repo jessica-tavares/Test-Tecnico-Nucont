@@ -28,7 +28,7 @@ function FormularioCadastro({textAnalitycs}) {
       <div className="forms" method="get">
         <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"/>
         <input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
-        <button className="btn-submit" onClick={onSubmit}>QUERO ACOMPANHAR A SÉRIE</button>
+        <button className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
       </div>
     </div>
   )
