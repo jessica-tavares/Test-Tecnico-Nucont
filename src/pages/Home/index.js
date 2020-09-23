@@ -34,7 +34,7 @@ function Home() {
           <Topics text="Que quer aumentar o valor percebido pelo seu cliente e ajudá-lo na tomada de decisão" />
           <Topics text="Que deseja ver na prática como aplicar uma consultoria contábil eficaz e com método claro" />
         </div>
-        <h4>doted line</h4>
+        <hr/>
         <div>
           <h1 className="title">O QUE SERÁ ABORDADO NA SÉRIE:</h1>
           <Topics text="Análises de indicadores de empresas reais no contexto atual" />
@@ -42,7 +42,7 @@ function Home() {
           <Topics text="Metodologia científica para aplicação de consultoria contábil" />
           <Topics text="Pesquisas e comparativos de mercado para entender o contexto das pequenas empresas na pandemia" />
         </div>
-        <h4>doted line</h4>
+        <hr/>
       </div>
       <div className="fourth-container">
         <h1 className="yellow-title">QUEM É FERNANDA ROCHA?</h1>
@@ -62,7 +62,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <h4>doted line</h4>
+        <hr/>
       </div>
       <div className="fifth-container">
         <div id="subscription">
@@ -71,7 +71,7 @@ function Home() {
             <FormularioCadastro />
           </div>
         </div>
-        <h4>dote notation</h4>
+        <hr/>
         <h1 className="yellow-title-2">ESTAMOS JUNTOS NESSA</h1>
       </div>
     </>

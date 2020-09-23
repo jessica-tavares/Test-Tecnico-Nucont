@@ -15,3 +15,13 @@ button:focus {
 a {
   text-decoration: none;
 }
+
+/* Dotted line stile */
+hr {
+  border:none;
+  border-top:4px dotted #FFE200;;
+  color:#fff;
+  background-color:#fff;
+  max-width: 44%;
+  align-items: center;
+}
