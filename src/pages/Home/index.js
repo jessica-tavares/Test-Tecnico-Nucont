@@ -14,14 +14,14 @@ function Home() {
           <p className="white-text footer-text">com Fernanda Rocha - CEO da Nucont</p>
         </div>
         <div className="first-rigth">
-          <FormularioCadastro />
+          <FormularioCadastro textAnalitycs="primeiro formulário" />
         </div>
       </div>
       <div className="second-container">
         <h1>COMO SER ESSENCIAL NA TOMADA DE DECISÃO DAS EMPRESAS?</h1>
         <p className="white-text center">Responder essa pergunta <span>pode ser mais fácil</span> do que parece: A Consultoria Contábil é sua aliada para analisar a real situação das empresas. No entanto, para colocar em prática, você precisa de informações e dedicação.</p>
         <span>Vamos conversar a respeito?</span>
-        <AnchorLink href="#subscription">
+        <AnchorLink href="#subscription" onClick="goog_report_conversion ('Go to Subscription')">
           <button div className="btn-link-div">
             QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA
           </button>
@@ -68,7 +68,7 @@ function Home() {
         <div id="subscription">
           <p>A Consultoria Contábil na Prática é um série de vídeo gratuita. Será realizada durante o mês de Julho e para ter acesso exclusivo, preencha o formulário ao lado!</p>
           <div className="forms">
-            <FormularioCadastro />
+            <FormularioCadastro textAnalitycs="segundo formulário" />
           </div>
         </div>
         <hr/>

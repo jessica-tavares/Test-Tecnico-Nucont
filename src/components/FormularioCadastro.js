@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import saveStorage from "../services/saveStorage";
 
-function FormularioCadastro() {
+function FormularioCadastro(textAnalitycs) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
@@ -22,7 +22,9 @@ function FormularioCadastro() {
       <div className="forms" method="get">
         <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"/>
         <input className="input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
-        <button type="submit" className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
+        <a href="#root" onClick={`goog_report_conversion (${textAnalitycs})`}>
+          <button type="submit" className="btn-submit" onClick={() => onSubmit()}>QUERO ACOMPANHAR A SÉRIE</button>
+        </a>
       </div>
     </div>
   )
