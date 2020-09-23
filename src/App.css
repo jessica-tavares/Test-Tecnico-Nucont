@@ -19,9 +19,8 @@ a {
 /* Dotted line stile */
 hr {
   border:none;
+  display: flex;
   border-top:4px dotted #FFE200;;
-  color:#fff;
-  background-color:#fff;
-  max-width: 44%;
+  width: 44%;
   align-items: center;
 }
