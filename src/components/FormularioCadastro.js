@@ -8,7 +8,7 @@ function FormularioCadastro({textAnalitycs}) {
 
   const onSubmit = () => {
     ReactGA.event({
-      category: 'Button',
+      category: 'Button-Subscript',
       action: textAnalitycs,
     });
 

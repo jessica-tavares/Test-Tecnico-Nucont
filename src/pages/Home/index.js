@@ -9,8 +9,8 @@ function Home() {
 
   const onClickEvent = () => {
     ReactGA.event({
-      category: 'Button',
-      action: 'Scroll page until subscription',
+      category: 'Button-Scroll',
+      action: 'Rolando a página até o formulário',
     });
   }
 
