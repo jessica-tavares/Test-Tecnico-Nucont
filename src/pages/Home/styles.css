@@ -36,7 +36,7 @@ span {
 }
 
 .first-left {
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   margin-left: 25%;
@@ -47,7 +47,7 @@ span {
 
 .first-rigth {
   margin-right: 10%;
-  margin-top: 200px;
+  margin-top: 150px;
   width: 328px;
 }
 
