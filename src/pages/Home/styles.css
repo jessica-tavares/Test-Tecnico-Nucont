@@ -5,6 +5,7 @@
   display: flex;
   background-repeat: no-repeat;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .white-text {
@@ -183,6 +184,7 @@ span {
  flex-direction: column;
  align-items: center;
  margin: 2% 20%;
+ flex-wrap: wrap;
 }
 
 .fourth-infos {
@@ -193,8 +195,8 @@ span {
 
 .fourth-infos img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  width: 412px;
-  height: 364px;
+  width: 40%;
+  height: 40%;
 }
 
 .fourth-infos-text{
@@ -277,4 +279,28 @@ span {
   line-height: 35px;
   color: #FFB700;
   margin-bottom: 5%;
+}
+
+@media (max-width: 500px) {
+  .fourth-infos {
+    flex-wrap: wrap;
+  }
+  #subscription {
+    flex-wrap: wrap;
+  }
+  .first-rigth {
+    margin: 10%;
+    width: 328px;
+    align-items: center;
+  }
+  .first-left {
+    margin: 10%;
+    align-items: center;
+  }
+  .footer-text {
+    margin: 15%;
+  }
+  .center {
+    max-width: 80%;
+  }
 }
