@@ -21,8 +21,8 @@ function Home() {
         <h1>COMO SER ESSENCIAL NA TOMADA DE DECISÃO DAS EMPRESAS?</h1>
         <p className="white-text center">Responder essa pergunta <span>pode ser mais fácil</span> do que parece: A Consultoria Contábil é sua aliada para analisar a real situação das empresas. No entanto, para colocar em prática, você precisa de informações e dedicação.</p>
         <span>Vamos conversar a respeito?</span>
-        <AnchorLink href="#subscription" onClick="goog_report_conversion ('Go to Subscription')">
-          <button div className="btn-link-div">
+        <AnchorLink href="#subscription">
+          <button className="btn-link-div">
             QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA
           </button>
         </AnchorLink>
