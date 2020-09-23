@@ -47,7 +47,7 @@ function Home() {
       <div className="fourth-container">
         <h1 className="yellow-title">QUEM É FERNANDA ROCHA?</h1>
         <div className="fourth-infos">
-          <img src={require('../../assets/AtivSSo12.png')} alt="Foto da Fernanda fundadora da Nucont" />
+          <img src={require('../../assets/AtivSSo12.webp')} alt="Foto da Fernanda fundadora da Nucont" />
           <div className="fourth-infos-text">
             <h4>Fala galera, beleza?</h4>
             <p>Eu sou a Fernanda Rocha, <span>fundadora da Nucont e do Movimento Contabilidade Sem Chatice.</span> 

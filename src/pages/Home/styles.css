@@ -1,6 +1,6 @@
 /* CSS do primeiro bloco da pagina Inicial */
 .first-container {
-  background: url('../../assets/ferbg1.png');
+  background: url('../../assets/ferbg1.webp');
   background-size: cover;
   display: flex;
   background-repeat: no-repeat;
