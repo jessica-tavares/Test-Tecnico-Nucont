@@ -1,11 +1,11 @@
-import React from 'react';
+function saveStorage(infos) {
+  const loadOldState = localStorage.getItem('usuariosCadastrados');
+  const oldState = (loadOldState) ? JSON.parse(loadOldState) : [];
 
-function saveStorage() {
-  return (
-    <div>
-      
-    </div>
-  )
+  if (oldState.length > 0) {
+    return localStorage.setItem('usuariosCadastrados', JSON.stringify([...oldState, infos]));
+  }
+  return localStorage.setItem('usuariosCadastrados', JSON.stringify([infos]));
 }
 
 export default saveStorage;

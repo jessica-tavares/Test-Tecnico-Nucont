@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import FormularioCadastro from '../../components/FormularioCadastro';
 import Topics from '../../components/Topics';
 import './styles.css';
@@ -20,9 +21,11 @@ function Home() {
         <h1>COMO SER ESSENCIAL NA TOMADA DE DECISÃO DAS EMPRESAS?</h1>
         <p className="white-text center">Responder essa pergunta <span>pode ser mais fácil</span> do que parece: A Consultoria Contábil é sua aliada para analisar a real situação das empresas. No entanto, para colocar em prática, você precisa de informações e dedicação.</p>
         <span>Vamos conversar a respeito?</span>
-        <div className="btn-link-div">
-          <a>QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA</a>
-        </div>
+        <AnchorLink href="#subscription">
+          <button div className="btn-link-div">
+            QUERO ASSITIR A SÉRIE: CONSULTORIA CONTÁBIL NA PRÁTICA
+          </button>
+        </AnchorLink>
       </div>
       <div className="third-container">
         <div>
@@ -62,7 +65,7 @@ function Home() {
         <h4>doted line</h4>
       </div>
       <div className="fifth-container">
-        <div className="subscription">
+        <div id="subscription">
           <p>A Consultoria Contábil na Prática é um série de vídeo gratuita. Será realizada durante o mês de Julho e para ter acesso exclusivo, preencha o formulário ao lado!</p>
           <div className="forms">
             <FormularioCadastro />
