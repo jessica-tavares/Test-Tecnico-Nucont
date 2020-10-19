@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import './App.css';
 import Home from './pages/Home';
-import Thanks from './pages';
+import Thanks from './pages/Thanks';
 
 const GAInitial = () => {
   ReactGA.initialize('UA-178751346-1');
