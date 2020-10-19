@@ -1,10 +1,10 @@
 # Inscriçoes Nucont
 
 Gratidão a toda a equipe que tirou um tempo para criar esse projeto, e pra quem vai corrigir!
-foi um prazer imenso executar ele.
-Espero que seja o primeiro de muitos futuros projeto na Nucont
+Foi um prazer imenso executar ele.
+Espero que seja o primeiro de muitos futuros projetos na Nucont
 
-Trabalho realizado por Jéssica tavares Rocha para o teste Técnico da empresa Nucont!
+Trabalho realizado por Jéssica Tavares Rocha para o teste técnico da empresa Nucont!
 
 Acesso ao site [aqui]
 
