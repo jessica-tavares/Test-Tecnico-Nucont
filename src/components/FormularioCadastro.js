@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { Redirect } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import saveStorage from "../services/saveStorage";
 
 function FormularioCadastro({textAnalitycs}) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [shouldRedirect, setShouldRedirect] = useState(false);
 
   const onSubmit = () => {
     ReactGA.event({
@@ -17,9 +19,11 @@ function FormularioCadastro({textAnalitycs}) {
     (regexp.test(email)) ? saveStorage(infos) : alert("Email Inválido")
     setName('');
     setEmail('');
+    setShouldRedirect(true);
   }
 
-  return (
+  return (shouldRedirect) ? <Redirect path='/Thanks' /> :
+  (
     <div className="forms-container">
       <div>
         <h3>Fale agora com nossos consultores!</h3>
