@@ -16,13 +16,17 @@ function FormularioCadastro({textAnalitycs}) {
 
     const infos = { nome: name, email };
     const regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    (regexp.test(email)) ? saveStorage(infos) : alert("Email Inválido")
+    if (regexp.test(email)) {
+      saveStorage(infos)
+      setShouldRedirect(true)
+    }
+    else alert("Email Inválido")
     setName('');
     setEmail('');
     setShouldRedirect(true);
   }
 
-  return (shouldRedirect) ? <Redirect path='/Thanks' /> :
+  return (shouldRedirect) ? <Redirect to='/thanks' /> :
   (
     <div className="forms-container">
       <div>
